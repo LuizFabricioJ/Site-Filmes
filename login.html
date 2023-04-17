@@ -1,0 +1,69 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style_login/style_login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+
+    <!--<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>-->
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="/cadastro-user">/*action="#"*/
+                <h1>Criar uma conta</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa-brands fa-google"></i></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use seu e-mail para cadastro</span>
+                <!-- <input type="text" placeholder="Name" /> -->
+                <input type="email" id="" placeholder="Email" />
+                <input type="senha" id="" placeholder="Cria uma senha" />
+                <input type="senha_2" id="" placeholder="Confirme senha" />
+                <button>Inscrever-se</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="/cadastro-user" action="#">
+                <h1>Entrar</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ou use sua conta</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Para se manter conectado conosco, faça login com suas informações pessoais</p>
+                    <button class="ghost" id="signIn">Entrar</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Olá amigo!</h1>
+                    <p>Insira seus dados pessoais e comece a jornada conosco</p>
+                    <button class="ghost" id="signUp">Inscrever-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="public/style_login/script_login.js"></script>
+</body>
+
+</html>
